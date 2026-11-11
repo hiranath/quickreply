@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #142B4A;
+  --navy-light: #203B60;
+  --purple: #7555D9;
+  --purple-light: #F1EDFF;
+  --background: #F6F8FC;
+  --foreground: #172033;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: white;
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--purple-light);
+  color: var(--navy);
+  }
